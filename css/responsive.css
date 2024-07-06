@@ -1,0 +1,532 @@
+/* // Extra Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /*Common CSS*/
+    h1 {
+        font-size: 35px;
+    }
+
+    h1 span {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    a {
+        font-size: 15px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .section_padding{
+        padding: 50px 0px;
+    }
+    .section_heading hr {
+        width: 50px;
+    }
+
+    .button {
+        padding: 10px 15px;
+        text-transform: capitalize;
+    }
+    /*Common CSS*/
+
+    /*Menu*/
+    nav {
+        min-height: 45px;
+    }
+
+    .navbar-logo {
+        line-height: 45px;
+    }
+
+    label #btn, label #close {
+        line-height: 45px;
+    }
+    nav .menu{
+        position: fixed;
+        top: 45px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 45px);
+        transition: 0.5s;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    nav .menu .nav-item {
+        display: block;
+    }
+    nav .menu .nav-item .nav-link{
+        margin-left: 5%;
+        display: inline-block;
+    }
+    label #btn {
+       display: block !important;
+    }
+    #check:checked ~ .menu{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none !important;
+    }
+    #check:checked ~ label #close{
+        display: block !important;
+    }
+    .sticky label #btn{
+        display: block !important;
+    }
+    /*Menu*/
+    /*Home*/
+    .home {
+        background-position: left;
+        padding: 250px 0px;
+    }
+    .home_slide .carousel-indicators {
+        top: 220%;
+        left: 0;
+        display: flex;
+    }
+    /*Home*/
+
+    /*About*/
+    .about_info h3 {
+        margin-bottom: 25px;
+    }
+
+    .about_info .button {
+        margin-right: 10px;
+    }
+
+    .about_skill {
+        margin-top: 35px;
+    }
+
+    .about_skill h3 {
+        margin-bottom: 25px;
+    }
+
+    .skillbar .skill_item {
+        margin-bottom: 15px;
+    }
+
+    .skill_title {
+        margin-bottom: 15px;
+    }
+    .skillbar_percentage {
+        height: 35px;
+        width: 35px;
+        margin-top: -15px;
+    }
+    .skillbar_percentage h4 {
+        line-height: 35px;
+        font-size: 12px;
+    }
+    /*About*/
+    /*Service*/
+    .service_item {
+        padding: 30px 0px;
+    }
+    .ser_item_icon {
+        margin-bottom: 20px;
+    }
+    .ser_item_content h4 {
+        margin-bottom: 10px;
+    }
+    /*Service*/
+    /*Portfolio*/
+    .portfolio_item_overlay .overlay_content a {
+        margin-right: 10px;
+        height: 40px;
+        width: 40px;
+    }
+    .portfolio_item_overlay .overlay_content a i {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    /*Portfolio*/
+    /*Hire*/
+    .hire_content {
+        text-align: center;
+    }
+    .hire_content h2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .hire_content .button {
+        float: none;
+        padding: 10px 25px;
+    }
+    /*Hire*/
+    /*Testimonial*/
+    .testimonial_item .fa-comments {
+        top: 285px;
+        font-size: 50px;
+    }
+    .testimonial_item .reviwer {
+        margin-bottom: 20px;
+    }
+    .testimonial_item .reviwer h4 {
+        margin-top: 15px;
+    }
+    .testimonial_item .review_details i {
+        font-size: 30px;
+    }
+    .testimonial_item .review_details p {
+        margin: 10px 0px;
+    }
+
+    .carousel-control-prev {
+        left: 80%;
+        bottom: 85%;
+    }
+
+    .carousel-control-next{
+        right: 80%;
+        bottom: 85%;
+    }
+    .testimonial_item .review_company {
+        margin-top: 15px;
+    }
+    /*Testimonial*/
+    /*Blog*/
+    .news_item {
+        margin-bottom: 20px;
+    }
+    .news_item .img_overlay p {
+        font-size: 10px;
+        color: #fff;
+        padding: 9px 4px;
+    }
+    /*Blog*/
+    /*Contact*/
+    .contact_form {
+        margin-top: 20px;
+    }
+    .contact_address hr {
+        top: 105px;
+    }
+    .contact_form hr {
+        top: 80px;
+    }
+    /*Contact*/
+    /*Footer*/
+    footer {
+        padding: 25px 0px 0px;
+    }
+    .footer_icon a i {
+        margin: 0px 10px;
+    }
+    .footer_icon {
+        margin-bottom: 15px;
+    }
+    .footer_copyright {
+        padding: 10px 0px;
+        text-align: center;
+    }
+    /*Footer*/
+    /*Topbtn*/
+    .topbtn {
+        right: 5px;
+        bottom: 40px;
+        height: 35px;
+        width: 35px;
+    }
+    .topbtn i {
+        font-size: 15px;
+    }
+    /*Topbtn*/
+    
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /*Common CSS*/
+    h1{
+        font-size: 55px;
+    }
+    h1 span {
+        font-size: 55px;
+    }
+    /*Common CSS*/
+
+    /*Menu*/
+    nav .menu{
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: #000;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    nav .menu{
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: rgba(0, 0, 0, 0.9);
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    nav .menu .nav-item {
+        display: block;
+    }
+    nav .menu .nav-item .nav-link{
+        margin-left: 30%;
+        display: inline-block;
+    }
+    label #btn {
+       display: block !important;
+    }
+    #check:checked ~ .menu{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none !important;
+    }
+    #check:checked ~ label #close{
+        display: block !important;
+    }
+    .sticky label #btn{
+        display: block !important;
+    }
+    /*Menu*/
+    /*Home*/
+    .home {
+        padding: 250px 50px 250px 0px;
+    }
+    /*Home*/
+
+    /*About*/
+    .about_skill {
+        margin-top: 50px;
+    }
+    /*About*/
+
+    /*Service*/
+    .service_item::after {
+        left: 32%;
+    }
+    /*Service*/
+
+    /*Testimonial*/
+    .testimonial_item .fa-comments {
+        top: 190px;
+        font-size: 100px;
+    }
+    .testimonial_item .review_details i {
+        font-size: 35px;
+    }
+    .testimonial_item .review_details p {
+        margin: 20px 0px;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 60%;
+    }
+    .testimonial_item .review_company {
+        margin-top: 50px;
+    }
+    /*Testimonial*/
+    /*Hire*/
+    .hire_content{
+        text-align: center;
+    }
+    .hire_content h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .hire_content .button {
+        float: none;
+    }
+    /*Hire*/
+    /*Blog*/
+    .news_item{
+        margin-bottom: 20px;
+    }
+    /*Blog*/
+    /*Team*/
+    .team_item_overlay {
+        padding: 10px 15px;
+    }
+    .team_item_overlay .social_icon a {
+        height: 20px;
+        width: 20px;
+        line-height: 15px;
+        margin: 5px 10px;
+    }
+    .team_item_overlay .social_icon a i {
+        font-size: 12px;
+    }
+    .team_item_overlay .social_icon::after {
+        left: 24px;
+        top: 31px;
+    }
+    .team_item_overlay .social_icon::before {
+        left: 40px;
+        top: 14px;
+    }
+    /*Team*/
+    /*Contact*/
+    .contact_form {
+        margin-top: 20px;
+    }
+    /*Contact*/
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Common CSS*/
+    h1{
+        font-size: 54px;
+    }
+    h1 span{
+        font-size: 54px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    a {
+        font-size: 17px;
+    }
+    .button {
+        padding: 10px 15px;
+    }
+    /*Common CSS*/
+    /*Menu*/
+    nav {
+        min-height: 50px;
+    }
+    label #btn, label #close {
+        line-height: 50px;
+    }
+
+    .navbar-logo {
+        line-height: 50px;
+    }
+
+    nav .menu{
+        position: fixed;
+        top: 50px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: rgba(0, 0, 0, 0.9);
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    nav .menu .nav-item {
+        display: block;
+    }
+    nav .menu .nav-item .nav-link{
+        margin-left: 30%;
+        display: inline-block;
+    }
+    label #btn {
+       display: block !important;
+    }
+    #check:checked ~ .menu{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none !important;
+    }
+    #check:checked ~ label #close{
+        display: block !important;
+    }
+    .sticky label #btn{
+        display: block !important;
+    }
+    /*Menu*/
+    /*Home*/
+    .home_slide .carousel-indicators {
+        left: 85%;
+    }
+    /*Home*/
+    /*About*/
+    .about_info .button {
+        margin-right: 15px;
+    }
+    /*About*/
+    /*Portfolio*/
+    .portfolio_item_overlay .overlay_content a {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+    .portfolio_item_overlay .overlay_content a i {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    /*Portfolio*/
+    /*Blog*/
+    .news_item{
+        margin-bottom: 20px;
+    }
+    .news_item .img_overlay p {
+        padding: 9px 5px;
+    }
+    /*Blog*/
+    /*Contact*/
+    .contact_address hr {
+        top: 75px;
+    }
+    .contact_address {
+        padding: 40px 30px 34px;
+    }
+    .contact_form hr {
+        top: 75px;
+    }
+    /*Contact*/
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    h2 {
+        font-size: 35px;
+    }
+    h4 {
+        font-size: 15px;
+
+    }
+    /*Home*/
+    .home_slide .carousel-indicators {
+        left: 85%;
+    }
+    /*Home*/
+    /*About*/
+    .about_info .button {
+        margin-right: 10px;
+    }
+    /*About*/
+    /*Portfolio*/
+    .portfolio_item_overlay .overlay_content a {
+        margin-right: 10px;
+    }
+    /*Portfolio*/
+    /*BLog*/
+    .news_item .img_overlay p:nth-child(2) {
+        padding: 9px 10px 9px 15px;
+    }
+    .news_item .img_overlay p {
+        font-size: 12px;
+        color: #fff;
+        padding: 9px 2px;
+    }
+    /*BLog*/
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
